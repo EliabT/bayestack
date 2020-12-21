@@ -1,1 +1,0 @@
-../CompactPD/Debug/out/histo.txt
