@@ -1,6 +1,6 @@
 ## What is this?
 * This a baysian-stacking code that fits radio luminosity functions (RLF) to optical/NIR selected radio data (including undetected radio data)
-* The code uses and extends [bayestack]{https://github.com/jtlz2/bayestack} 
+* The code uses and extends [bayestack](https://github.com/jtlz2/bayestack)
 
 Assuming all the installation is done, the first step is to extract the optical/NIR data.
 
