@@ -15,11 +15,8 @@
 
 ## Quick start
 Assuming all the installation is done, 
-1. The first step is to prepare the optical/NIR data (which is breifly explained in data section and fully explained in the [paper](http://arxiv.org/abs/2012.09797).   
-2. Run the cosmos_sf.py file which selects galaxies and saves them into different files according to their redshifts
-3. Run flux_extract.py to extract the flux-densities from the different redshifts
-4. run binner_settings_lf.py to bin the flux-densities
-5. edit the bayestack_setting file to point to the correct files
-6. run bayestack.py bayestack_settings (preffeabley the one in the server_code.. folder)
+1. The first step is to prepare the optical/NIR data (which is breifly explained in data section and fully explained in the [paper](http://arxiv.org/abs/2012.09797).
+2. edit the bayestack_setting file to point to the correct files
+3. run bayestack.py bayestack_settings (preffeabley the one in the server_code.. folder)
 
 
