@@ -22,6 +22,6 @@ Assuming all the installation is done,
  * ```floatNoise``` if set to ```True``` then the noise will be fitted (with proirs ```{SURVEY_NOISE*0.2,SURVEY_NOISE*2}```). if False, then the noise will be set to ```SURVEY_NOISE``` 
 * ```WhichRedshiftSlice``` is the redshift bin being used. 1 refers to z_med=0.32 (corresponding to cos_data/data_cos_s1.txt) and 10 refers to z_med=3.44 (corresponding to cos_data/data_cos_s10.txt)
 
-4. run bayestack.py bayestack_settings (preffeabley the one in the server_code.. folder)
+4. Finally run the code using  ```bayestack.py bayestack_settings```
 
 
