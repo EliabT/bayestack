@@ -17,8 +17,8 @@
 Assuming all the installation is done, 
 1. The first step is to prepare the optical/NIR data (which is breifly explained in data section and fully explained in the [paper](http://arxiv.org/abs/2012.09797).
 2. edit the settings for the fit in bayestack_setting file. The most essential varibles to set are:
-  '''outdir''' this is the directory where the output will be saved into
-  '''floatNoise''' if set to '''True''' then the noise will be fitted (with proirs '''{SURVEY_NOISEx0.2,SURVEY_NOISEx2}'''). if False, then the noise will be set to '''SURVEY_NOISE''' 
+  ```outdir``` this is the directory where the output will be saved into
+  ```floatNoise``` if set to ```True``` then the noise will be fitted (with proirs ```{SURVEY_NOISEx0.2,SURVEY_NOISEx2}```). if False, then the noise will be set to ```SURVEY_NOISE``` 
  
 4. run bayestack.py bayestack_settings (preffeabley the one in the server_code.. folder)
 
