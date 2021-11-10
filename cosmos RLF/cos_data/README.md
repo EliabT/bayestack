@@ -1,6 +1,7 @@
 ## This is folder contains the data used in the this work.
 
 ## The describtion of the optical/NIR data is fully explained in the [paper](http://arxiv.org/abs/2012.09797). Below is a technical discription of how the data is prepared.
+
 1. Run ```$python cosmos_sf.py``` This applies the galaxies selection and saves them into different files according to their redshifts. 
 * The selection includes limiting the data to the central 2 deg square which leads to a minor cut in the data RA >149.4
 * K_s<=24.5 #average 5sigma magnitude limit for UltraVista
